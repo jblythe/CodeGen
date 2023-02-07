@@ -1,5 +1,5 @@
-conda create --name codeGen_env python=3.6.9
-conda activate codeGen_env
+# conda create --name codeGen_env python=3.6.9
+# conda activate codeGen_env
 conda config --add channels conda-forge
 conda config --add channels pytorch
 
@@ -15,9 +15,9 @@ cd ../../../../
 
 mkdir tree-sitter
 cd tree-sitter
-git clone https://github.com/tree-sitter/tree-sitter-cpp.git
+# git clone https://github.com/tree-sitter/tree-sitter-cpp.git
 git clone https://github.com/tree-sitter/tree-sitter-java.git
-git clone https://github.com/tree-sitter/tree-sitter-python.git
+# git clone https://github.com/tree-sitter/tree-sitter-python.git
 cd ..
 
 cd codegen_sources/test_generation/

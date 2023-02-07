@@ -1,0 +1,11 @@
+venv
+
+.idea
+
+codegen_sources/__pycache__
+
+codegen_sources/preprocessing/__pycache__
+
+codegen_sources/preprocessing/lang_processors/__pycache__
+
+codegen_sources/preprocessing/obfuscation/__pycache__
